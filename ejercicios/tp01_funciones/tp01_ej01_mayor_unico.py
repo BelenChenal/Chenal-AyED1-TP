@@ -1,4 +1,12 @@
 def buscar_mayor(a,b,c):
+    """Recibe tres numeros , devuelve el mayor de ellos
+        
+        Pre: Los tres numeros deben ser enteros y positivos
+
+        Post: devuelve el numero mayor entre los tres
+            Si los tres son iguales, devuelve -1
+            Si no hay mayores, devuelve -1
+    """
     if a > b:
         if a > c:
             return a
