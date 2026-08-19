@@ -5,7 +5,6 @@ def buscar_mayor(a,b,c):
 
         Post: devuelve el numero mayor entre los tres
             Si los tres son iguales, devuelve -1
-            Si no hay mayores, devuelve -1
     """
     if a > b:
         if a > c:
