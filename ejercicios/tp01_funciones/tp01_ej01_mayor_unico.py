@@ -1,4 +1,4 @@
-def buscar_mayor(a,b,c):
+def buscar_mayor(a:int,b:int,c:int)-> int:
     """Recibe tres numeros , devuelve el mayor de ellos
         
         Pre: Los tres numeros deben ser enteros y positivos
