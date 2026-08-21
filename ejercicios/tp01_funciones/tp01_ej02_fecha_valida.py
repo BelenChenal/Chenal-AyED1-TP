@@ -38,9 +38,9 @@ def validacion_fecha(dia:int,mes:int,anio:int)-> bool:
         return False             
     
 
-dia = int(input('Ingrese un dia'))
-mes= int(input('Ingrese el mes'))
-anio = int(input('Ingrese el año'))
+dia = int(input('Ingrese un dia '))
+mes= int(input('Ingrese el mes '))
+anio = int(input('Ingrese el año '))
 
 validar = validacion_fecha(dia,mes,anio)
 

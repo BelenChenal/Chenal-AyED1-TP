@@ -19,9 +19,9 @@ def buscar_mayor(a:int,b:int,c:int)-> int:
         return -1
 
 
-num1 =int(input('Ingrese primer numero'))
-num2 =int(input('Ingrese segundo numero'))
-num3 = int(input('Ingrese tercer numero'))
+num1 =int(input('Ingrese primer numero '))
+num2 =int(input('Ingrese segundo numero '))
+num3 = int(input('Ingrese tercer numero '))
 buscar= buscar_mayor(num1,num2,num3)
 if buscar == -1:
      print('No hay mayor')
