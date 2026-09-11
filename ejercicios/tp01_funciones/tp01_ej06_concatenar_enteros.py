@@ -4,6 +4,12 @@
 #mite utilizar facilidades de Python no vistas en clase
 
 def concatenar (a:int, b:int) ->int: 
+    """ Concatena dos numeros enteros positivos
+
+    Pre: dos numeros enteros positivos
+    Post: un entero positivo formado por ambos parametros recibidos 
+    
+    """
     contador = 0
     aux= b
     while aux != 0:
@@ -12,6 +18,6 @@ def concatenar (a:int, b:int) ->int:
     unir= a *(10**contador) + b 
 
 
-num1= (input('Ingrese primer numero '))
-num2= (input('Ingrese segundo numero '))
+num1= int(input('Ingrese primer numero '))
+num2= int(input('Ingrese segundo numero '))
 print(concatenar(num1,num2))
