@@ -7,7 +7,7 @@ def concatenar (a:int, b:int) ->int:
     """ Concatena dos numeros enteros positivos
 
     Pre: dos numeros enteros positivos
-    Post: un entero positivo formado por ambos parametros recibidos 
+    Post: retorna un entero positivo formado por ambos parametros recibidos 
     
     """
     contador = 0
